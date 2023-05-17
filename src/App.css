@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  font-weight: 500;
+  color: #2dcd1b;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #2dcd1b;
+}
+
+dialog {
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 1.6rem;
+  max-width: 400px;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid #00ae00;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #00ae00;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background-color: #00d000;
+  border-color: #00d000;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn-close {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-close:hover {
+  background-color: #222;
+  border-color: #222;
+}
