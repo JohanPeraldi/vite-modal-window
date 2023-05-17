@@ -8,7 +8,7 @@ function App(props) {
       <button onClick={toggleModal}>Open</button>
       <dialog data-modal>
         <p>{props.modalText}</p>
-        <button data-close-modal className='btn-close' onClick={toggleModal}>Close</button>
+        <button data-close-modal className='btn-close' onClick={toggleModal}>{props.btnCloseText}</button>
       </dialog>
     </>
   )
@@ -16,6 +16,7 @@ function App(props) {
 
 App.propTypes = {
   modalText: PropTypes.string.isRequired,
+  btnCloseText: PropTypes.string.isRequired,
 }
 
 export default App
